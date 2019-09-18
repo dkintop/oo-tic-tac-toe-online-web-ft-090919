@@ -120,7 +120,7 @@ end
   def winner
     if (@board[winning_combo[0]]) == "X" && (@board[winning_combo[1]]) == "X" && (@board[winning_combo[2]]) == "X"
         return "X"
-    elsif 
+    elsif(@board[winning_combo[0]]) == "O" && (@board[winning_combo[1]]) == "O" && (@board[winning_combo[2]]) == "O" 
     
     
   end
