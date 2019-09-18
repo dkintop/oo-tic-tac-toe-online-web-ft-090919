@@ -134,7 +134,6 @@ end
     
     while over? == false
       turn
-      draw?
     end
     
     if won?
