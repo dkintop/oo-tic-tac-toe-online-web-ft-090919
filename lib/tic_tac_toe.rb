@@ -110,7 +110,7 @@ end
   
   def over?
     
-    if won? || full?
+    if won? || full? || draw?
       true 
     else 
       false 
