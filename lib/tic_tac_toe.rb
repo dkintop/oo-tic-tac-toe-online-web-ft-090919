@@ -33,8 +33,8 @@ class TicTacToe
   
   
   def position_taken?(move_index)
-    if @board[move_index] == ""
-      false 
+    if @board[move_index] == " "
+       false 
     else 
       true 
     end
