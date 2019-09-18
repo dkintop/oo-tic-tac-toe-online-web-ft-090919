@@ -138,6 +138,9 @@ end
     
     if won?
       puts "congratulations #{winner}!"
+    elsif draw?
+      puts "the game ended in a draw"
+    end
     
   end 
     
