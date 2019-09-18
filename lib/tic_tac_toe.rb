@@ -24,8 +24,12 @@ class TicTacToe
   end
   
   def input_to_index(input_string)
-    
     input_integer = input_string.to_i - 1
+  end 
+  
+  def move (move_index, token = x)
+    
+    
     
   end 
   
