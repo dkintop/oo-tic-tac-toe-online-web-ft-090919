@@ -75,6 +75,7 @@ class TicTacToe
       move(move_index, player)
       display_board
     else 
+      puts "invalid move choice, please select a valid position"
       turn
     end
   end
