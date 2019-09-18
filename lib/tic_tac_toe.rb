@@ -90,6 +90,17 @@ class TicTacToe
       false
   end
 end
+
+  def full?
+    
+    if !@board.include?(" ")
+      true
+    else 
+      false
+    end 
+    
+  end 
+    
   
   
   
