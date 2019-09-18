@@ -112,7 +112,8 @@ end
     
     if won? || full?
       true 
-    
+    end 
+    false
   end 
     
   
