@@ -137,7 +137,7 @@ end
     end
     
     if won?
-      puts "congratulations #{winner}"
+      puts "congratulations #{winner}!"
     
   end 
     
