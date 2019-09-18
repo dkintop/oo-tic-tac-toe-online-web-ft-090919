@@ -67,6 +67,9 @@ class TicTacToe
   end 
   
   def turn 
+  puts "Please select a position between 1-9"
+  index = gets.chomp.to_i
+  
   end
   
   
