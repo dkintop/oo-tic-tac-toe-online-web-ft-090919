@@ -55,7 +55,6 @@ class TicTacToe
         count += 1
       end
     end 
-    count 
   end 
   
   
