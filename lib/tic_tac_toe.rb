@@ -53,7 +53,8 @@ class TicTacToe
     @board.each do |position|
       if position == "x" || position == "o"
         count += 1
-      end 
+      end
+    end 
     count 
   end 
   
