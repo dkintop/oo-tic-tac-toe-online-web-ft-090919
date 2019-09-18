@@ -71,9 +71,9 @@ class TicTacToe
     input = gets.chomp
     move_index = input_to_index(input)
     valid_move?(move_index)
-    current_player
+    player = current_player
     if valid_move?(move_index) == true
-      move(move_index, current_player)
+      move(move_index, player)
       display_board
     else 
       puts "Invalid move, please select a valid position."
