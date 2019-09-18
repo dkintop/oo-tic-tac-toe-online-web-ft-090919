@@ -74,6 +74,7 @@ class TicTacToe
     current_player
     if valid_move?(move_index) == true
       move(move_index, current_player)
+      display_board
     else 
       puts "Invalid move, please select a valid position."
     end
