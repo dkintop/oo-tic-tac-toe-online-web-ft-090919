@@ -134,6 +134,10 @@ end
     
     while over? == false
       turn
+    end
+    
+    if won?
+      puts "congratulations #{winner}"
     
   end 
     
