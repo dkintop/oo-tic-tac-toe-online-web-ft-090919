@@ -116,8 +116,13 @@ end
       false 
     end 
   end 
-    
   
+  def winner
+    
+    won?[0]
+    
+  end
+
   
   
 end
