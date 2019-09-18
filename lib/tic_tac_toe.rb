@@ -106,6 +106,12 @@ end
     else 
       false
     end 
+  end 
+  
+  def over?
+    
+    if won? || full?
+      true 
     
   end 
     
